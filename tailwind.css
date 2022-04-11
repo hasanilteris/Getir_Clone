@@ -12,6 +12,7 @@
     }
 }
 
+
 @layer components {
     @media(max-width: 640px) {
         .container {
@@ -40,6 +41,7 @@
 #rfs-btn >span >span:nth-child(2) {
     @apply text-sm
 }
+
 #rfs-btn + ul {
     @apply border-none shadow-lg
 }
