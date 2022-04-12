@@ -13,6 +13,8 @@
 }
 
 
+
+
 @layer components {
     @media(max-width: 640px) {
         .container {
@@ -21,6 +23,7 @@
         }
     }
 }
+
 
 .slick-prev {
     @apply absolute top-1/2 -left-8 -translate-y-1/2 hidden md:block
@@ -32,9 +35,11 @@
 #rfs-btn {
     @apply h-14 w-[109px] border-2 border-gray-200 rounded transition-colors hover:border-purple-600
 }
+
 #rfs-btn[aria-expanded="true"] {
     @apply border-purple-600
 }
+
 #rfs-btn >span >span:nth-child(1) {
     @apply text-base
 }
