@@ -11,10 +11,6 @@
         @apply antialiased bg-purple-200 bg-opacity-10
     }
 }
-
-
-
-
 @layer components {
     @media(max-width: 640px) {
         .container {
@@ -23,8 +19,6 @@
         }
     }
 }
-
-
 .slick-prev {
     @apply absolute top-1/2 -left-8 -translate-y-1/2 hidden md:block
 }
