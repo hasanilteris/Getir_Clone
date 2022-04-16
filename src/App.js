@@ -7,6 +7,8 @@ import MobileApp from 'components/MobileApp';
 import Cards from 'components/Cards';
 import Footer from 'components/Footer';
 import { useWindowWidth } from '@react-hook/window-size'
+
+
 function App() {
 	const width = useWindowWidth()
 	return (
