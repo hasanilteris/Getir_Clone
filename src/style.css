@@ -27,6 +27,7 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 */
+
 html {
   line-height: 1.5;
   /* 1 */
@@ -42,6 +43,7 @@ html {
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
+
 
 body {
   margin: 0;
@@ -63,6 +65,7 @@ hr {
   border-top-width: 1px;
   /* 3 */
 }
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
@@ -88,6 +91,7 @@ h6 {
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
+
 
 a {
   color: inherit;
@@ -117,6 +121,7 @@ pre {
   /* 2 */
 }
 
+
 /*
 Add the correct font size in all browsers.
 */
@@ -136,6 +141,7 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
@@ -158,6 +164,7 @@ table {
   border-collapse: collapse;
   /* 3 */
 }
+
 
 /*
 1. Change the font styles in all browsers.
@@ -187,6 +194,7 @@ textarea {
 /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
+
 
 button,
 select {
@@ -222,6 +230,7 @@ Use the modern Firefox focus style for all focusable elements.
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
+
 :-moz-ui-invalid {
   box-shadow: none;
 }
@@ -247,6 +256,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
+
 
 [type='search'] {
   -webkit-appearance: textfield;
