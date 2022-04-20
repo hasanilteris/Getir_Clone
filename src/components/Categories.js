@@ -3,7 +3,6 @@ import categoriesData from 'api/categories.json'
 import CategoryItem from 'components/ui/CategoryItem';
 
 function Categories() {
-
 	const [categories, setCategories] = useState([])
 
 	useEffect(() => {
@@ -21,5 +20,4 @@ function Categories() {
 		</div>
 	)
 }
-
 export default Categories
