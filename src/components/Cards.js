@@ -1,7 +1,6 @@
 import CardItem from 'components/ui/CardItem'
 
 function Cards() {
-
 	const cards = [
 		{
 			title: 'Her siparişinize bir kampanya',
@@ -28,5 +27,4 @@ function Cards() {
 		</>
 	)
 }
-
 export default Cards
