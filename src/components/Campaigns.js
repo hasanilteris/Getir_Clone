@@ -4,6 +4,7 @@ import Banners from 'api/banners.json'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import { useWindowWidth } from '@react-hook/window-size'
 
+
 function NextButton ({ onClick, className }) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
@@ -18,7 +19,6 @@ function PrevButton ({ onClick, className }) {
 		</button>
 	)
 }
-
 function Campaigns() {
 
 	const [banners, setBanners] = useState([])
@@ -53,7 +53,6 @@ function Campaigns() {
 			}
 		]
 	};
-
 	return (
 		<>
 			<div className="sm:container overflow-hidden md:overflow-visible mx-auto px-0" style={{width: width < 640 ? width : ''}}>
@@ -69,5 +68,4 @@ function Campaigns() {
 		</>
 	)
 }
-
 export default Campaigns
