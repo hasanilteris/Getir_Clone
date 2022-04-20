@@ -3,7 +3,6 @@ import Products from 'api/products.json'
 import ProductItem from 'components/ui/ProductItem'
 
 function Favorites() {
-
 	const [products, setProducts] = useState([])
 
 	useEffect(() => {
@@ -19,5 +18,4 @@ function Favorites() {
 		</div>
 	)
 }
-
 export default Favorites
