@@ -4,7 +4,6 @@ import CategoryItem from 'components/ui/CategoryItem';
 
 function Categories() {
 	const [categories, setCategories] = useState([])
-
 	useEffect(() => {
 		setCategories(categoriesData)
 	}, [])
