@@ -4,7 +4,6 @@ import Banners from 'api/banners.json'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import { useWindowWidth } from '@react-hook/window-size'
 
-
 function NextButton ({ onClick, className }) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
