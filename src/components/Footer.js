@@ -1,6 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 import {FiGlobe} from 'react-icons/fi';
-
 function Footer() {
 	return (
 		<div className="bg-white py-4 sm:pt-10 sm:pb-6">
