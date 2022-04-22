@@ -1,7 +1,6 @@
 import {useState, useEffect} from 'react'
 import Products from 'api/products.json'
 import ProductItem from 'components/ui/ProductItem'
-
 function Favorites() {
 	const [products, setProducts] = useState([])
 
