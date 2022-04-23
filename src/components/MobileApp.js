@@ -1,5 +1,4 @@
 function MobileApp() {
-
 	return (
 		<>
 			<div className="bg-purple-700 flex flex-col sm:flex-row items-center sm:pl-12 justify-between bg-mobile-app rounded-lg">
@@ -30,5 +29,4 @@ function MobileApp() {
 		</>
 	)
 }
-
 export default MobileApp
