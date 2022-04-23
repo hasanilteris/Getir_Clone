@@ -16,7 +16,6 @@ function HeroSection() {
 		cssEase: 'linear',
 		arrows: false,
 	};
-
 	const flags = {
 		US: '+1',
 		GB: '+5',
@@ -25,7 +24,6 @@ function HeroSection() {
 		IT: '+11',
 		TR: '+90',
 	}
-
 	return (
 		<div
 			className="h-auto sm:h-[500px] bg-purple-500 relative before:bg-gradient-to-r before:from-purple-600 before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
