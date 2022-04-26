@@ -21,6 +21,7 @@
 ::after {
   --tw-content: '';
 }
+
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -54,6 +55,7 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
+
 hr {
   height: 0;
   /* 1 */
@@ -75,6 +77,7 @@ abbr:where([title]) {
 /*
 Remove the default font size and weight for headings.
 */
+
 
 h1,
 h2,
